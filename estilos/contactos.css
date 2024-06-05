@@ -1,0 +1,144 @@
+@font-face {
+  font-family: globalFont;
+  src: url('../fuentes/BRLNSR.TTF');
+}
+
+@font-face {
+  font-family: navFont;
+  src: url('../fuentes/PPFormula-NarrowSemibold.otf');
+}
+
+#encabezado {
+  background: #102026;
+  width: 100wh;
+  display: flex;
+  max-height: 12rem;
+  align-items: center;
+}
+
+.titulo {
+  padding: 1rem 3rem 1rem 7rem;
+  border-bottom: solid white 5px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: fit-content;
+}
+
+.titulo span {
+  color: white;
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.titulo h1 {
+  color: white;
+  font-size: 1.40rem;
+  width: fit-content;
+  margin-top: 0.9rem;
+  font-family: globalFont;
+}
+
+.logo {
+  max-height: 10rem;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: 5rem;
+}
+
+
+
+
+.navbar {
+  margin-left: 5rem;
+  width: fit-content;
+}
+
+.navbar a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: navFont;
+}
+
+.navbar-nav {
+  gap: 3rem;
+}
+
+.light-nav {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.light-nav a {
+  color: white;
+}
+
+.light-nav a:hover {
+  color: rgb(216, 186, 186);
+}
+
+.carrito-light {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: navFont;
+  color: white;
+  text-decoration: none;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 5rem;
+}
+
+.carrito-light:hover {
+  color: black;
+}
+
+#contactos {
+  background: url('../imagenes/llantas-basic-101.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#contactos h1 {
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.contenido {
+  width: 100%;
+}
+
+.boton-contacto {
+  background: rgba(120, 120, 120, 0.5);
+  border: none;
+  padding: 0.5rem 6rem;
+  border-radius: 50px;
+}
+
+.icono-boton {
+  color: #EE4235
+}
+
+.boton-contacto:hover .icono-boton,
+    .icono-boton:hover {
+      color: white;
+    }
+
+.arriba {
+  margin-bottom: 7rem;
+}
+
+.copyright {
+  color: white;
+  font-family: 'Montserrat';
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}

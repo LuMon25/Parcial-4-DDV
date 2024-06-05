@@ -1,0 +1,188 @@
+@font-face {
+  font-family: globalFont;
+  src: url('../fuentes/BRLNSR.TTF');
+}
+
+@font-face {
+  font-family: navFont;
+  src: url('../fuentes/PPFormula-NarrowSemibold.otf');
+}
+
+#encabezado {
+  background: #102026;
+  width: 100wh;
+  display: flex;
+  max-height: 12rem;
+  align-items: center;
+}
+
+.titulo {
+  padding: 1rem 3rem 1rem 7rem;
+  border-bottom: solid white 5px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: fit-content;
+}
+
+.titulo span {
+  color: white;
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.titulo h1 {
+  color: white;
+  font-size: 1.40rem;
+  width: fit-content;
+  margin-top: 0.9rem;
+  font-family: globalFont;
+}
+
+.logo {
+  max-height: 10rem;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: 5rem;
+}
+
+
+
+#destacados {
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#destacados::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../imagenes/IMG_1395.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  z-index: -1; 
+  pointer-events: none;
+}
+
+.contenido {
+  max-width: 80%;
+  padding-top: 5rem;
+}
+
+.contenido h1 {
+  font-size: 4rem;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.contenido p {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 1.6rem;
+  padding-bottom: 5rem;
+}
+
+.llanta-destacada {
+  max-width: 34rem;
+  object-fit: contain;
+}
+
+.navbar {
+  margin-left: 5rem;
+  width: fit-content;
+}
+
+.navbar a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: navFont;
+}
+
+.navbar-nav {
+  gap: 3rem;
+}
+
+.destacados-nav {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: solid black 4px;
+}
+
+.carrito {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: navFont;
+  color: black;
+  text-decoration: none;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 5rem;
+}
+
+.carrito:hover {
+  color: red;
+}
+
+#productos {
+  position: relative;
+  background-color: #E84236;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#productos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../imagenes/LLanta\ fondo.png'); /* Replace with your actual image path */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: -1;
+  pointer-events: none;
+}
+
+#productos h1 {
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.carousel-item {
+  padding: 6rem 0 20rem 0;
+}
+
+.carousel-caption h4 h2 {
+  font-family: 'Montserrat';
+}
+
+.carousel-caption h4 {
+  font-size: 1.65rem;
+}
+
+.carousel-caption h2 {
+  font-size: 2.5rem;
+}
+
+.img-producto {
+  max-height: 24rem;
+  object-fit: contain;
+}
+
+.productos-inner {
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
